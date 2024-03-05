@@ -1,3 +1,4 @@
+/* UNIVERSAL */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HEADERS */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +52,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* CONTENT */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,15 +63,12 @@ p {
     display: flex;
 }
 
-.float-left {
+/* SYNTAX FLOATS */
+.float-left, .float-right  {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
@@ -87,54 +87,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* PROPERTIES OF BENEFITS */
+.benefit-lead,.benefit-brand, .benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* MARGINS OF THE TITLES */
+.benefit-lead h3, .benefit-brand h3,.benefit-cost h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {    
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* POSITIONS OF THE IMAGES BENEFIT LEAD,BRAND AND COST */
+.benefit-lead img , .benefit-brand img,.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* CREATING THE SPACE FOR THE OPTIONS OF SEARCH ENGINE, ONLINE REPUTATION, SOCIAL MEDIA */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing{
     margin-bottom: 20px;
     padding: 50px;
@@ -144,28 +115,18 @@ p {
     color: #ffffff;
 }
 
-/* Size images */
+/* SIZE IMAGES*/
 
 .search-engine-optimization img, .online-reputation-management img,.social-media-marketing img  {
     max-height: 200px;
 }
 
-
-.search-engine-optimization h2 {
+/* PROPERTIES OF SIZE AND MARGING OF THE TITLES  */
+.search-engine-optimization h2, .social-media-marketing h2, .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* FOOTERS */
 .footer {
     padding: 30px;
     clear: both;
